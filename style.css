@@ -1,0 +1,74 @@
+/* Reset some default browser spacing */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #2b3e54;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container */
+.container{
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Space between buttons */
+.link{
+    margin: 15px 0;
+}
+
+/* Button style */
+.btn{
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.btn:hover{
+    background-color: #0056b3;
+}
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.sv{
+    display: inline-block;
+    padding: 7px 14px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 10px;
+    transition: 0.1s;
+}
+h2{
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group{
+    margin-top: 10px;
+}
